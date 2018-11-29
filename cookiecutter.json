@@ -5,7 +5,7 @@
   "id_model":"SQ",
   "component_name":"Phenology"
   "project_name": "Python Boilerplate",
-  "project_slug":{{cookiecutter.id_model + "_" + cookiecutter.component_name.lower().replace(' ', '_').replace('-', '_')}},
+  "project_slug":{{cookiecutter.component_name.lower().replace(' ', '_').replace('-', '_')}},
   "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",
